@@ -9,4 +9,4 @@ const projectSchema = new mongoose.Schema({
   technologies: [String],
 });
 
-export default mongoose.model('Post', projectSchema);
+export default mongoose.model('Project', projectSchema);
