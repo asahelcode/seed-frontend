@@ -1,14 +1,25 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Container } from '@material-ui/core';
-import {  Typography } from '@mui/material';
+import { Typography } from '@mui/material';
+import { useDispatch, useSelector } from 'react-redux'
+import { RootState } from '../store/store';
 
-import blogs from '../data.json';
 import Blog from '../features/Blog/Blog';
 import useStyles from '../styles'
+import { getBlogs } from '../action/Blog';
+import { BlogProp } from '../interfaces';
 
 
-const Articles = () => {
+const Blogs = () => {
   const classes = useStyles();
+  const dispatch = useDispatch();
+  const blogs = useSelector((state: RootState) => state.blogReducer)
+
+  useEffect(() => {
+    dispatch(getBlogs())
+  }, [])
+
+  console.log(blogs);
 
   return (
     <Container className={classes.body}>
@@ -16,10 +27,10 @@ const Articles = () => {
         "Because the one who are crazy enough to think that<br /> they can change the world are the ones who do."
       </Typography>
       {
-        blogs.map((item) => <Blog key={item.id} blog={item} />)
+        blogs.map((item: BlogProp) => <Blog key={item._id} title={item.title} tags={item.tags} description={item.description} timestamp={item.timestamp} _id={item._id} />)
       }
     </Container >
   )
 }
 
-export default Articles
+export default Blogs

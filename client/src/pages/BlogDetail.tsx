@@ -1,22 +1,31 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Container } from '@material-ui/core'
 import { useParams } from 'react-router-dom'
 import { Stack, Typography } from '@mui/material'
 import TwitterIcon from '@material-ui/icons/Twitter'
 
-import { format } from 'timeago.js'
 import parser from 'html-react-parser'
+import moment from 'moment'
+
+import { useDispatch, useSelector } from 'react-redux'
+import { RootState } from '../store/store'
 
 import useStyle from '../styles'
+import { fetchBlogById } from '../action/Blog'
 
-import blogs from '../data.json';
 
 const BlogDetail = () => {
   const { id } = useParams();
-  const blog = blogs[0];
+  const blog = useSelector((state: RootState) => state.blogReducer)
+  const dispatch = useDispatch();
 
   const classes = useStyle();
 
+  useEffect(() => {
+    dispatch(fetchBlogById(id));
+  }, [])
+
+  console.log(blog)
 
   return (
     <Container maxWidth='md' className={classes.blogDetailBody}>
@@ -26,12 +35,12 @@ const BlogDetail = () => {
       <Stack direction='row' alignItems='center' justifyContent='space-between' mt={2} borderBottom='1px solid gray' pb={2}>
         <Stack>
           <Typography fontSize='0.75em' color='rgba(0, 0, 10, 0.9)'>
-            {format(blog.timestamp)}
+            {moment(blog.timestamp).fromNow()}
           </Typography>
         </Stack>
         <Stack direction='row' gap={0.6}>
           {
-            blog.tags.map((tag) => <Typography fontSize='0.75em' color='rgba(0, 0, 10, 0.8)'>{`#${tag}`}</Typography>)
+            blog.tags.map((tag: any) => <Typography fontSize='0.75em' color='rgba(0, 0, 10, 0.8)'>{`#${tag}`}</Typography>)
           }
         </Stack>
       </Stack>
