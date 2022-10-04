@@ -1,0 +1,28 @@
+[
+  {
+    "id": "4",
+    "timestamp":  5888838490399,
+    "cover": "https://imgs.search.brave.com/AxpuXeeJaLvq2l6Gu-07K4BGd9s_Jn378k-CndRS2qw/rs:fit:362:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5n/U0hjU095VGZzLVJt/OExGU3FsaHBBSGFK/ciZwaWQ9QXBp",
+    "name": "Pragmatic programmer",
+    "genre": "computer programming",
+    "author": "Andrew Hunt & David Thomas",
+    "publisher": "Adison-Wesley",
+    "rating": 3.5,
+    "review": "The book does not present a systematic theory, but rather</div> a collection of tips to improve the development process in a pragmatic way. <u>The main qualities of what the authors</u> refer to as a pragmatic programmer are being an early <em>adopter</em>, to have fast adaptation, inquisitiveness and critical thinking, realism, and being a jack-of-all-trades.[5]",
+    "url": "https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/",
+    "pages": 320
+  },
+  {
+    "id": "10",
+    "timestamp":  58888383490399,
+    "cover": "https://imgs.search.brave.com/rIxWcMT4Z6vgD-oeuBsBVwJD8jkoXOy2UG-7vkv9k0Y/rs:fit:632:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5z/Mm83ek1zdVAwMDlN/aHBGa0RvUUVRSGFG/aiZwaWQ9QXBp",
+    "name": "Clean code",
+    "genre": "computer programming",
+    "author": "Robert Martins",
+    "publisher": "Princeton-Hall",
+    "rating": 4,
+    "review": "Even bad code can function. But if code isn’t clean, it can bring a development organization to its knees. Every year, countless hours and significant resources are lost because of … - Selection from Clean Code: A Handbook of Agile Software Craftsmanship [Book]",
+    "url": "https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882",
+    "pages": 439
+  }
+]

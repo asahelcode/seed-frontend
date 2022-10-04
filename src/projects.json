@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "img": "https://imgs.search.brave.com/dFDpy_cFb1qHnhJCuFFg8_s78sGeF2Oy79mrQQRpMFI/rs:fit:759:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5p/Qm0tbmd3Zkk2ZkU1/ZjN3bVVkZG5nSGFF/byZwaWQ9QXBp",
+    "name": "lateet.com",
+    "github": "github.com/lateet.com",
+    "url": "https://www.lateet.com/4-modern-examples-of-clean-website-design/",
+    "description": "",
+    "technologies": ["React.Js", "Typescript", "MongoDB", "Node.Js"]
+  },
+  {
+    "id": "2",
+    "img": "https://imgs.search.brave.com/4ga_NiPx8xRNveVOGEwMi1wnBD3tEN9qpzXKWrRvyVA/rs:fit:713:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Z/YkdnTEpvYTJjTVRJ/anZrUjNVMzBnSGFF/NyZwaWQ9QXBp",
+    "name": "threegirlsmedia.com",
+    "github": "github.com/tgm.com",
+    "url": "http://www.threegirlsmedia.com/2016/03/25/launching-new-website-tips-starting-web-business/",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "technologies": ["Django", "Redux", "Remix", "Node.Js"]
+  },
+  {
+    "id": "4",
+    "img": "https://imgs.search.brave.com/CyrvUo2ca3u1hMOCWZjJEEdx_XHRq90EMi6B-v-nNEo/rs:fit:759:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5f/NFRIMlExek9DQkIz/Y1Nhb1FtR1FBRXND/NyZwaWQ9QXBp",
+    "name": "sitereported.com",
+    "github": "github.com/sr.git",
+    "url": "https://www.sitereportcard.com/2044/look-for-these-9-warning-signs-that-you-need-a-website-redesign/",
+    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+    "technologies": ["Node.Js", "Vue", "Typescript", "GraphQL"]
+  },
+  {
+    "id": "10",
+    "img": "https://imgs.search.brave.com/u455oWWft6jhZcwytVuBtlcZQHyUZz-8R3GaKz8CwWc/rs:fit:632:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC52/ekd4eENabEg2X3pk/WWRXSXRkcDhnSGFG/aiZwaWQ9QXBp",
+    "name": "Dribble lite",
+    "github": "github.com/behance",
+    "url": "https://dribbble.com/shots/7366473-Videographer-Video-Production-Website-Template",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "technologies": ["Node.Js", "Blendr", "Webpack", "RESTApi"]
+  }
+]
