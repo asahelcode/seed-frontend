@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = 'http://localhost:5000/book';
+const baseUrl = 'https://seed-api-vc9u.onrender.com/book';
 
 export const getBooks = () => axios.get(baseUrl);
 
