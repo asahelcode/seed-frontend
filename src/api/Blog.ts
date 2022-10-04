@@ -1,7 +1,7 @@
 import { ReqBlog } from '../interfaces';
 import axios from 'axios';
 
-const baseUrl = 'http://localhost:5000/blog';
+const baseUrl = 'https://seed-api-vc9u.onrender.com/blog';
 
 export const getAllBlogs = () => axios.get(baseUrl);
 
