@@ -17,7 +17,7 @@ export const createBlogPost = async (_req: Request, res: Response) => {
 
   try {
     await newBlogPost.save();
-    res.status(200).json('success');
+    res.status(200).json(newBlogPost);
   } catch (error) {
     console.log(error);
   }

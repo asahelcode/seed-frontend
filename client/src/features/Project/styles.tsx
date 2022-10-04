@@ -4,6 +4,9 @@ export default makeStyles((theme) => ({
   body: {
     zIndex: -1,
   },
+  projectName: {
+    backgroundColor: 'rgba(0, 0, 0, 0.38)'
+  },
   projectImg: {
     width: '300px',
     height: '250px',

@@ -12,15 +12,28 @@ export default makeStyles((theme) => ({
   projectBody: {
     backgroundColor: 'rgba(255, 255, 255, 0.79)',
   },
-  articleOptionLink: {
-    color: '#000',
-    textDecoration: 'none',
-    "&:hover": {
-      color: 'blue',
-    }
-  },
-  articleDetailBody: {
+  blogDetailBody: {
     marginTop: '2.3em',
     backgroundColor: 'rgba(255, 255, 255, 0.73)'
+  },
+  homeBody: {
+    backgroundColor: 'rgba(255, 255, 255, 0.89)'
+  },
+  form: {
+    margin: '2em',
+    padding: '30px',
+  },
+  rating: {
+    padding: '1.2em',
+    border: '1px solid lightslategray',
+    borderRadius: '3px',
+    "&:focus": {
+      outline: '1px solid blue'
+    }
+  },
+  textArea: {
+    border: '1.5px solid lightslategray',
+    borderRadius: '5px',
+    outlineWidth: '0',
   }
 }))

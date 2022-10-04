@@ -19,8 +19,6 @@ const Blogs = () => {
     dispatch(getBlogs())
   }, [])
 
-  console.log(blogs);
-
   return (
     <Container className={classes.body}>
       <Typography variant='h5' color='lightslategrey' textAlign='center' fontFamily='Festive' textTransform='capitalize' mt={4}>

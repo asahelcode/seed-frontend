@@ -19,8 +19,11 @@ export default makeStyles((theme) => ({
   menu: {
     display: 'none'
   },
-  menuTitle: {
-    display: 'none'
+  mobile: {
+    display: 'none !important'
+  },
+  addText: {
+    textDecoration: 'none',
   },
   [theme.breakpoints.down('sm')]: {
     link: {
@@ -47,8 +50,15 @@ export default makeStyles((theme) => ({
     // },
     menuItems: {
       backgroundColor: '#fff',
-
+      zIndex: 10,
     },
-
+    menuLink: {
+      textDecoration: 'none',
+      color: '#000',
+      margin: '0.5em 0'
+    },
+    mobile: {
+      display: 'flex !important'
+    },
   }
 }))

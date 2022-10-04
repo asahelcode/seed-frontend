@@ -16,6 +16,7 @@ export const createBook = async (_req: Request, res: Response) => {
   try {
     const newBook = new Books(body);
     await newBook.save();
+    res.status(200).json('success');
   } catch (error) {
     console.log(error);
   }
