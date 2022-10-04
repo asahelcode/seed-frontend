@@ -1,7 +1,7 @@
 import { ReqProject } from './../interfaces';
 import axios from 'axios';
 
-const baseUrl = 'http://localhost:5000/project';
+const baseUrl = 'https://seed-api-vc9u.onrender.com/project';
 
 export const getProjects = () => axios.get(baseUrl);
 
