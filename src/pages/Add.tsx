@@ -36,8 +36,6 @@ const Add = () => {
         dispatch(postBlog(blogState));
       }
     }
-
-    window.location.reload();
   }
 
   return (
